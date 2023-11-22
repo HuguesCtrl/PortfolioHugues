@@ -1,43 +1,65 @@
 const projectsData = [
   {
     id: 1,
-    title: "Casta",
-    date: "Janvier 2020",
-    languages: ["React", "Php", "Sass"],
+    title: "Booki",
+    date: "Février 2023",
+    languages: ["HTML", "CSS"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+      "Intégration d'un site en HTML et CSS à partir d'une maquette Figma, site one page responsive s'adaptant à tous type d'écrans jusqu'aux plus petit téléphone.",
     img: "./assets/img/projet-1.jpg",
-    link: "http://www.google.com",
+    link: "https://huguesctrl.github.io/ProjetBooki/",
+    video: "https://www.youtube.com/watch?v=eSI_Q99HAyE",
   },
   {
     id: 2,
-    title: "Lyon Béton",
-    date: "Mars 2020",
-    languages: ["Symfony", "Vue"],
+    title: "Sophie Bluel",
+    date: "Avril 2023",
+    languages: ["Javascript", "Appel API"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+      "Implémentation d'un site en vanilla Javascript, manipulation du DOM, appel API, espace administrateur, création d'une fenêtre modale pour ajouter des projets au site.",
     img: "./assets/img/projet-2.jpg",
-    link: "http://www.google.com",
+    link: "",
+    video: "https://www.youtube.com/watch?v=JcCjPOpZRIw",
   },
   {
     id: 3,
-    title: "Everpost",
-    date: "Avril 2020",
-    languages: ["Wordpress", "Php", "React"],
+    title: "Kasa",
+    date: "Septembre 2023",
+    languages: ["React", "Sass"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+      "Implémentation d'un site en React pour une agence de location immobilière, utilisation de Sass (variables, mixins, placeholder, import).",
     img: "./assets/img/projet-3.jpg",
     link: "http://www.google.com",
   },
   {
     id: 4,
-    title: "Creative Dev",
-    date: "Juillet 2020",
-    languages: ["Vue", "Php"],
+    title: "Mon vieux Grimoire",
+    date: "Octobre 2023",
+    languages: ["NodeJS", "MongoDB"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+      "Création de partie back-end d'un site de notation de livres avec NodeJS et la base de données noSQL MongoDB.",
     img: "./assets/img/projet-4.jpg",
     link: "http://www.google.com",
+  },
+  {
+    id: 5,
+    title: "Salle de boxe",
+    date: "Novembre 2023",
+    languages: ["HTML", "CSS", "Javascript"],
+    infos:
+      "Intégration d'un site pour une salle de Boxe, utilisation de Flexbox et des medias queries au minimum. Utilisation de JS responsive avec la méthode matchMedia.",
+    img: "./assets/img/projet-5.jpg",
+    link: "https://huguesctrl.github.io/salleDeBoxe/",
+  },
+  {
+    id: 6,
+    title: "Agence Héraclès",
+    date: "Novembre 2023",
+    languages: ["HTML", "CSS", "Javascript"],
+    infos:
+      "Intégration d'un site pour une agence immobilière, utilisation de Flexbox et de Grid. Utilisation de JS pour créer un slider.",
+    img: "./assets/img/projet-6.jpg",
+    link: "https://huguesctrl.github.io/Immobilier/",
   },
 ];
 

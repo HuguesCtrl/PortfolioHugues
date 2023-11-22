@@ -20,7 +20,7 @@ function Navbar() {
                   nav.isActive ? "nav-active hover" : "hover"
                 }
               >
-                <li>Projet 1</li>
+                <li>Booki</li>
               </NavLink>
               <NavLink
                 to="/projet-2"
@@ -28,7 +28,7 @@ function Navbar() {
                   nav.isActive ? "nav-active hover" : "hover"
                 }
               >
-                <li>Projet 2</li>
+                <li>Sophie Bluel</li>
               </NavLink>
               <NavLink
                 to="/projet-3"
@@ -36,7 +36,7 @@ function Navbar() {
                   nav.isActive ? "nav-active hover" : "hover"
                 }
               >
-                <li>Projet 3</li>
+                <li>Kasa</li>
               </NavLink>
               <NavLink
                 to="/projet-4"
@@ -44,7 +44,23 @@ function Navbar() {
                   nav.isActive ? "nav-active hover" : "hover"
                 }
               >
-                <li>Projet 4</li>
+                <li>Mon Vieux Grimoire</li>
+              </NavLink>
+              <NavLink
+                to="/projet-5"
+                className={(nav) =>
+                  nav.isActive ? "nav-active hover" : "hover"
+                }
+              >
+                <li>Salle de Boxe</li>
+              </NavLink>
+              <NavLink
+                to="/projet-6"
+                className={(nav) =>
+                  nav.isActive ? "nav-active hover" : "hover"
+                }
+              >
+                <li>Agence Héraclès</li>
               </NavLink>
             </ul>
           </li>

@@ -39,6 +39,12 @@
     align-items: center;
     justify-items: center;
     height: 95%;
+    .img-profil {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+      display: block;
+    }
 
     .main-content {
       user-select: none;
@@ -94,5 +100,8 @@
         }
       }
     }
+  }
+  .para-description {
+    margin-top: 20px;
   }
 }

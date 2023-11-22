@@ -12,7 +12,13 @@ function Project2() {
         <Navbar />
         <Logo />
         <Buttons left={"/projet-1"} right={"/projet-3"} />
-        <Project projectNumber={1} />
+        <Project
+          projectNumber={1}
+          github={"https://github.com/HuguesCtrl/ProjetSophieBluel"}
+          video={
+            "https://www.youtube.com/watch?v=JcCjPOpZRIw&list=PLzaRFeot-cPVRne47YYiRu-eb3atvpth6&index=3&t=5s"
+          }
+        />
       </div>
     </main>
   );

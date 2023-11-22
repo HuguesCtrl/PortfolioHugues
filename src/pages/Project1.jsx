@@ -12,7 +12,13 @@ function Project1() {
         <Navbar />
         <Logo />
         <Buttons left={"/"} right={"/projet-2"} />
-        <Project projectNumber={0} />
+        <Project
+          projectNumber={0}
+          inline={true}
+          video={
+            "https://www.youtube.com/watch?v=z-xsu2GgeUo&list=PLzaRFeot-cPVRne47YYiRu-eb3atvpth6&index=2"
+          }
+        />
       </div>
     </main>
   );
