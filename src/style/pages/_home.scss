@@ -48,6 +48,12 @@
 
     .main-content {
       user-select: none;
+      @media screen and (max-width: 800px) {
+        margin-left: 20px;
+      }
+      @media screen and (max-width: 400px) {
+        margin-left: 0;
+      }
 
       h1 {
         font-size: 3.7rem;
@@ -103,5 +109,8 @@
   }
   .para-description {
     margin-top: 20px;
+    @media screen and (max-width: 800px) {
+      width: 70%;
+    }
   }
 }

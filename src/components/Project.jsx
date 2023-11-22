@@ -122,7 +122,7 @@ function Project({ projectNumber, video, github, inline }) {
       </motion.div>
       <span
         className="random-circle"
-        style={{ left: left, top: top, transform: size }}
+        style={{ left: 1230, top: 330, transform: size, zIndex: -20 }}
       ></span>
     </motion.div>
   );

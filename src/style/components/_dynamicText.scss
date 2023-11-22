@@ -37,4 +37,7 @@
       transform: translateZ(-280px) translateX(200px);
     }
   }
+  @media screen and (max-width: 430px) {
+    transform: translate(10px);
+  }
 }
