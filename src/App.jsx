@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Project1 from "./pages/Project1";
 import Project2 from "./pages/Project2";
@@ -12,7 +12,7 @@ import { AnimatePresence } from "framer-motion";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AnimatePresence>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -26,7 +26,7 @@ function App() {
           <Route path="*" element={<Error />} />
         </Routes>
       </AnimatePresence>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 export default App;
