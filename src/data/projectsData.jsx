@@ -8,6 +8,7 @@ const projectsData = [
       "Intégration d'un site en HTML et CSS à partir d'une maquette Figma, site one page responsive s'adaptant à tous type d'écrans jusqu'aux plus petit téléphone.",
     img: "./assets/img/projet-1.jpg",
     imgSmall: "./assets/img/projet-1-small.jpg",
+    imgSmall320: "./assets/img/projet-1-small-320.jpg",
     link: "https://huguesctrl.github.io/ProjetBooki/",
     video: "https://www.youtube.com/watch?v=eSI_Q99HAyE",
   },
@@ -20,6 +21,7 @@ const projectsData = [
       "Implémentation d'un site en vanilla Javascript, manipulation du DOM, appel API, espace administrateur, création d'une fenêtre modale pour ajouter des projets au site.",
     img: "./assets/img/projet-2.jpg",
     imgSmall: "./assets/img/projet-2-small.jpg",
+    imgSmall320: "./assets/img/projet-2-small-320.jpg",
     link: "",
     video: "https://www.youtube.com/watch?v=JcCjPOpZRIw",
   },
@@ -32,6 +34,7 @@ const projectsData = [
       "Implémentation d'un site en React pour une agence de location immobilière, utilisation de Sass (variables, mixins, placeholder, import).",
     img: "./assets/img/projet-3.jpg",
     imgSmall: "./assets/img/projet-3-small.jpg",
+    imgSmall320: "./assets/img/projet-3-small-320.jpg",
     link: "http://www.google.com",
   },
   {
@@ -43,6 +46,7 @@ const projectsData = [
       "Création de partie back-end d'un site de notation de livres avec NodeJS et la base de données noSQL MongoDB.",
     img: "./assets/img/projet-4.jpg",
     imgSmall: "./assets/img/projet-4-small.jpg",
+    imgSmall320: "./assets/img/projet-4-small-320.jpg",
     link: "http://www.google.com",
   },
   {
@@ -54,6 +58,7 @@ const projectsData = [
       "Intégration d'un site pour une salle de Boxe, utilisation de Flexbox et des medias queries au minimum. Utilisation de JS responsive avec la méthode matchMedia.",
     img: "./assets/img/projet-5.jpg",
     imgSmall: "./assets/img/projet-5-small.jpg",
+    imgSmall320: "./assets/img/projet-5-small-320.jpg",
     link: "https://huguesctrl.github.io/salleDeBoxe/",
   },
   {
@@ -65,6 +70,7 @@ const projectsData = [
       "Intégration d'un site pour une agence immobilière, utilisation de Flexbox et de Grid. Utilisation de JS pour créer un slider.",
     img: "./assets/img/projet-6.jpg",
     imgSmall: "./assets/img/projet-6-small.jpg",
+    imgSmall320: "./assets/img/projet-6-small-320.jpg",
     link: "https://huguesctrl.github.io/Immobilier/",
   },
 ];

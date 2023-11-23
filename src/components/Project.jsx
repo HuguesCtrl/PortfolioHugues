@@ -12,6 +12,14 @@ function Project({ projectNumber, video, github, inline }) {
 
   const innerWidth = window.innerWidth;
   console.log(innerWidth);
+  let imgSRC;
+  if (innerWidth > 1300) {
+    imgSRC = currentProject.img;
+  } else if (innerWidth < 1300 && innerWidth > 450) {
+    imgSRC = currentProject.imgSmall;
+  } else {
+    imgSRC = currentProject.imgSmall320;
+  }
 
   useEffect(() => {
     setLeft(Math.floor(Math.random() * 200 + 900) + "px");
@@ -81,13 +89,7 @@ function Project({ projectNumber, video, github, inline }) {
             <h3>{currentProject.title}</h3>
             <p>{currentProject.infos}</p>
           </span>
-          <img
-            src={
-              innerWidth > 1030 ? currentProject.img : currentProject.imgSmall
-            }
-            alt={currentProject.title}
-            className="img"
-          />
+          <img src={imgSRC} alt={currentProject.title} className="img" />
         </div>
         <div className="button-container">
           {inline && (
