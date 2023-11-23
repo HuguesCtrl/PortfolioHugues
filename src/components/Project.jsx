@@ -10,6 +10,9 @@ function Project({ projectNumber, video, github, inline }) {
   const [top, setTop] = useState();
   const [size, setSize] = useState();
 
+  const innerWidth = window.innerWidth;
+  console.log(innerWidth);
+
   useEffect(() => {
     setLeft(Math.floor(Math.random() * 200 + 900) + "px");
     setTop(Math.floor(Math.random() * 200 + 150) + "px");
@@ -79,7 +82,9 @@ function Project({ projectNumber, video, github, inline }) {
             <p>{currentProject.infos}</p>
           </span>
           <img
-            src={currentProject.img}
+            src={
+              innerWidth > 1030 ? currentProject.img : currentProject.imgSmall
+            }
             alt={currentProject.title}
             className="img"
           />

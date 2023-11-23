@@ -106,7 +106,7 @@
       }
 
       h1 {
-        font-size: 3rem;
+        font-size: 2rem;
         margin-bottom: 12px;
         font-family: $font-2;
         color: $color-2;
@@ -192,12 +192,13 @@
           width: 650px;
         }
         @media screen and (max-width: 1030px) {
-          height: 420px;
+          height: 500px;
           width: 500px;
         }
         @media screen and (max-width: 540px) {
           height: 420px;
           width: 100%;
+          background-position: center;
         }
 
         &:hover span,
