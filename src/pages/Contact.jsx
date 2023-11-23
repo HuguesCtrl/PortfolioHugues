@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import NavbarContact from "../components/NavbarContact";
 import Logo from "../components/Logo";
 import Mouse from "../components/Mouse";
 import ContactForm from "../components/ContactForm";
@@ -29,7 +29,7 @@ function Contact() {
         transition={{ duration: 0.3 }}
         className="contact"
       >
-        <Navbar />
+        <NavbarContact />
         <Logo />
         <ContactForm />
         <div className="contact-infos">

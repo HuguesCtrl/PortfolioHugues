@@ -5,7 +5,7 @@ const projectsData = [
     date: "Février 2023",
     languages: ["HTML", "CSS"],
     infos:
-      "Intégration d'un site en HTML et CSS à partir d'une maquette Figma, site one page responsive s'adaptant à tous type d'écrans jusqu'aux plus petit téléphone.",
+      "Intégration d'un site en HTML et CSS à partir d'une maquette Figma, site one-page responsive s'adaptant à tous type d'écrans jusqu'aux plus petit téléphone.",
     img: "./assets/img/projet-1.jpg",
     imgSmall: "./assets/img/projet-1-small.jpg",
     imgSmall320: "./assets/img/projet-1-small-320.jpg",
