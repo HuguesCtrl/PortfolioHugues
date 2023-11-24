@@ -11,7 +11,6 @@ function Project({ projectNumber, video, github, inline }) {
   const [size, setSize] = useState();
 
   const innerWidth = window.innerWidth;
-  console.log(innerWidth);
   let imgSRC;
   if (innerWidth > 1300) {
     imgSRC = currentProject.img;
