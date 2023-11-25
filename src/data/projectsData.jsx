@@ -43,7 +43,7 @@ const projectsData = [
     date: "Octobre 2023",
     languages: ["NodeJS", "MongoDB"],
     infos:
-      "Création de partie back-end d'un site de notation de livres avec NodeJS et la base de données noSQL MongoDB.",
+      "Création de la partie back-end d'un site de notation de livres avec NodeJS et la base de données noSQL MongoDB.",
     img: "./assets/img/projet-4.jpg",
     imgSmall: "./assets/img/projet-4-small.jpg",
     imgSmall320: "./assets/img/projet-4-small-320.jpg",
