@@ -35,8 +35,7 @@ function Contact() {
         <div className="contact-infos">
           <div className="address">
             <div className="content">
-              <h4>Adresse</h4>
-              <p>27 rue Raymond Guyot</p>
+              <h4>Ville</h4>
               <p>51100 Reims</p>
             </div>
           </div>

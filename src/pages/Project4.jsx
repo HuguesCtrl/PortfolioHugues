@@ -14,9 +14,6 @@ function Project4() {
         <Buttons left={"/projet-3"} right={"/projet-5"} />
         <Project
           projectNumber={3}
-          video={
-            "https://www.youtube.com/watch?v=zBnXjPTXW0A&list=PLzaRFeot-cPVRne47YYiRu-eb3atvpth6&index=7"
-          }
           github={"https://github.com/HuguesCtrl/ProjetMonVieuxGrimoire"}
         />
       </div>

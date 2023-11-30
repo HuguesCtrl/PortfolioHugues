@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import ProjectData from "../data/projectsData";
 import { motion } from "framer-motion";
 
-function Project({ projectNumber, video, github, inline }) {
+function Project({ projectNumber, github, inline }) {
   const [currentProject, setCurrentProject] = useState(
     ProjectData[projectNumber]
   );
@@ -111,17 +111,6 @@ function Project({ projectNumber, video, github, inline }) {
             >
               <i className="fab fa-github"></i>
               <span>voir le projet GitHub</span>{" "}
-            </a>
-          )}
-          {video && (
-            <a
-              href={video}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover video"
-            >
-              <i className="fas fa-video"></i>
-              <span>voir la présentation vidéo</span>{" "}
             </a>
           )}
         </div>

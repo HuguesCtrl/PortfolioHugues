@@ -10,7 +10,6 @@ const projectsData = [
     imgSmall: "./assets/img/projet-1-small.jpg",
     imgSmall320: "./assets/img/projet-1-small-320.jpg",
     link: "https://huguesctrl.github.io/ProjetBooki/",
-    video: "https://www.youtube.com/watch?v=eSI_Q99HAyE",
   },
   {
     id: 2,
@@ -23,7 +22,6 @@ const projectsData = [
     imgSmall: "./assets/img/projet-2-small.jpg",
     imgSmall320: "./assets/img/projet-2-small-320.jpg",
     link: "",
-    video: "https://www.youtube.com/watch?v=JcCjPOpZRIw",
   },
   {
     id: 3,
